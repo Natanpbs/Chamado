@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BTRC SOLUÇÕES</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="src/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="logo-container">
+          <img src="src/imagem/btrc.jpg" alt="Logo" id="logo">
+        </div>
+        <nav>
+          <a href="#" id="home-link">Home</a>
+          <a href="#" id="about-link">Sobre</a>
+          <a href="#" id="contact-link">Contato</a>
+          <a href="#" id="clients-link">Clientes</a>
+        </nav>
+        <head>
+            <!-- other head content -->
+            <script src="src/js/script.js"></script>
+         </head>
+         
+      </header>
+    <main>
+      <div class="image-container">
+        <img src="src/imagem/suporte.png" alt="Imagem" id="image">
+      </div>
+      <h1>BTRC SOLUÇÕES </h1>
+      <p>O melhor gerenciador de chamados</p>
+      <button class="button" onclick="cadastro()">Criar Chamado</button>
+    </main>
+    <footer>
+      <p>Copyright © BTRC SOLUÇÕES</p>
+    </footer>
+    <script>
+      function cadastro() {
+        var nome = prompt("Por favor, digite seu nome ou razão social:");
+        var cpf_cnpj = prompt("Por favor, digite seu CPF ou CNPJ:");
+        var cargo = prompt("Por favor, digite seu cargo:");
+        var email = prompt("Por favor, digite seu email:");
+        // aqui você pode colocar o código para enviar essas informações para o seu banco de dados ou para uma API
+        alert("Cadastro realizado com sucesso!");
+      }
+    </script>
+  </body>
+</html>

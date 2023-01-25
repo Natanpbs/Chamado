@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  
+}
+
+header .logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: -3em;
+}
+
+header nav a {
+  margin-right: 9px;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  text-align: center;
+  padding: 50px;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#logo {
+  float: left;
+  margin-right: auto;
+  width: 100px;
+  /* or any other value */
+  height: 100px;
+  /* or any other value */
+}
+
+.logo-container {
+  width: 70px;
+  /* or any other value */
+  height: 90px;
+  /* or any other value */
+  /* add any other desired properties */
+  margin-top: -20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Adiciona a imagem ao lado esquerdo da tela e centraliza-a */
+.image-container {
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+#image {
+  display: block;
+  margin: 0auto;
+  max-width: 30%;
+  padding: 0%;
+  position: center;
+}
